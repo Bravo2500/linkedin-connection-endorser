@@ -16,9 +16,9 @@ for(var x = 0; x < 9000; x += 500){
 }, 5000);
 
 setTimeout(function(){
-    $("button[aria-controls='featured-skills-expanded']").click();
+    $("button[data-control-name='skill_details']").click();
 
-    $("path[d='M21,13H13v8H11V13H3V11h8V3h2v8h8v2Z']").each(function(x, e) {
+    $("button[data-control-name='endorse']").each(function(x, e) {
 
           if(x < 40)
           {
